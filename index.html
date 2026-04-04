@@ -223,8 +223,8 @@
 ═══════════════════════════════════════════════ -->
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.134.0/examples/js/loaders/GLTFLoader.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.134.0/examples/js/loaders/GLTFLoader.js" defer></script>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -2144,8 +2144,9 @@ function initModal3D(modelPath, statusEl) {
 }
 
 function _tryLoadGLB(path, statusEl) {
-  if (!THREE.GLTFLoader) { _loadPlaceholder(statusEl); return; }
-  const loader = new THREE.GLTFLoader();
+  const GLTFLoaderClass = (typeof THREE !== 'undefined' && THREE.GLTFLoader) ? THREE.GLTFLoader : null;
+  if (!GLTFLoaderClass) { _loadPlaceholder(statusEl); return; }
+  const loader = new GLTFLoaderClass();
   loader.load(path, gltf => {
     const model = gltf.scene;
     model.name  = '__enemy__';
