@@ -1,0 +1,26 @@
+{
+  "name": "hurda-g-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HURDA-G \u2014 official game site (Deep Interactive Entertainment)",
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/model-viewer": "4.4.0",
+    "lucide-react": "^0.460.0",
+    "next": "15.5.19",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.7.0"
+  }
+}

@@ -1,0 +1,1472 @@
+[
+ {
+  "id": "axe",
+  "name": {
+   "tr": "Balta",
+   "en": "Axe"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 500,
+  "cat": "tools",
+  "model": "shop-axe"
+ },
+ {
+  "id": "balloon-gun",
+  "name": {
+   "tr": "Balon Silahı",
+   "en": "Balloon Gun"
+  },
+  "desc": {
+   "tr": "Vurduğun şeye balon bağlar; yeterince balon her şeyi havalandırır. Balona tekrar ateş: patlat.",
+   "en": "Attaches a balloon to whatever you hit; enough balloons lift anything. Shoot a balloon again to pop it."
+  },
+  "price": 600,
+  "cat": "gear",
+  "model": "shop-balloon-gun"
+ },
+ {
+  "id": "equipment-v2-antidotecanister",
+  "name": {
+   "tr": "Arındırıcı bakım sıvısı",
+   "en": "Purifying Maintenance Fluid"
+  },
+  "desc": {
+   "tr": "3 doz. Korozyon/zehir ve hava durumu etkilerini temizler (kendine ya da baktığın arkadaşa).",
+   "en": "3 doses. Removes corrosion/poison and weather effects from you or the teammate you're looking at."
+  },
+  "price": 350,
+  "cat": "health",
+  "model": "eq-antidotecanister"
+ },
+ {
+  "id": "equipment-v2-chainlauncher",
+  "name": {
+   "tr": "Zincir fırlatıcı",
+   "en": "Chain Launcher"
+  },
+  "desc": {
+   "tr": "2 atış: ilk atış zincirin bir ucunu vurduğun yere ya da eşyaya takar, ikinci atış öbür ucu takar; zincir kısalıp ikisini birbirine çeker. Fizikli eşyaları birbirine ya da duvara bağlar. R: zincirleri sök, atışları doldur.",
+   "en": "2 shots: the first attaches one end of the chain to whatever you hit, the second attaches the other end; the chain shortens and pulls them together. Ties physics objects to each other or to a wall. R: remove chains and reload."
+  },
+  "price": 950,
+  "cat": "tools",
+  "model": "eq-chainlauncher"
+ },
+ {
+  "id": "equipment-v2-cleansecore",
+  "name": {
+   "tr": "Üç dozlu arındırıcı",
+   "en": "Three-Dose Purifier"
+  },
+  "desc": {
+   "tr": "3 doz. Tüm durum etkilerini temizler ve +15 can verir.",
+   "en": "3 doses. Removes all status effects and restores 15 health."
+  },
+  "price": 900,
+  "cat": "health",
+  "model": "eq-cleansecore"
+ },
+ {
+  "id": "equipment-v2-crewbugle",
+  "name": {
+   "tr": "Ekip borazanı",
+   "en": "Crew Horn"
+  },
+  "desc": {
+   "tr": "İki elle ağzına götür, Ateş basılı tuttukça çal (yukarı bak: ince, aşağı bak: kalın). Çalarken 10 m içindeki ekip 8 sn boyunca hızlı stamina toplar. 20 sn çalma hakkı.",
+   "en": "Raise it to your mouth with both hands and hold Fire to play (look up: high, look down: low). While you play, the crew within 10 m regains stamina faster for 8 s. 20 s of playing time."
+  },
+  "price": 850,
+  "cat": "gear",
+  "model": "eq-crewbugle"
+ },
+ {
+  "id": "equipment-v2-crewcannon",
+  "name": {
+   "tr": "Karakter fırlatma topu",
+   "en": "Player Cannon"
+  },
+  "desc": {
+   "tr": "Elindeyken bakışınla nişan al (yukarı bak: dik atış), Ateş: önüne yerleştir. Namluya bak + E: topa bin. İçerideyken E: fitili yak (ya da dışarıdan fitile bak + E, 3 sn içinde bin). Fitil bitince namludan fırlatılırsın. Space: in.",
+   "en": "While holding it, aim with your view (look up: steep shot), Fire: place it in front of you. Look at the barrel + E: climb into the cannon. Inside, E: light the fuse (or look at the fuse from outside + E and get in within 3 s). When the fuse burns out, you're launched from the barrel. Space: get out."
+  },
+  "price": 1800,
+  "cat": "gear",
+  "model": "eq-crewcannon"
+ },
+ {
+  "id": "equipment-v2-dartpipe",
+  "name": {
+   "tr": "Üflemeli dart borusu",
+   "en": "Dart Blowpipe"
+  },
+  "desc": {
+   "tr": "4 dart. Bir takım arkadaşına üfle: dart saplanır, o oyuncu 6 sn bayılır ve olumsuz durum etkileri temizlenir. Düşmanı 6 sn sersemletir. Kendine kullanılamaz. Dartlar bitince boru elde kalır.",
+   "en": "4 darts. Blow one at a teammate: the dart sticks, they pass out for 6 s and their negative status effects are cleared. Stuns enemies for 6 s. Can't be used on yourself. The pipe stays in your hand when the darts run out."
+  },
+  "price": 250,
+  "cat": "weapons",
+  "model": "eq-dartpipe"
+ },
+ {
+  "id": "equipment-v2-fieldstove",
+  "name": {
+   "tr": "Saha ocağı",
+   "en": "Field Stove"
+  },
+  "desc": {
+   "tr": "Ateş: yak/söndür. Yanarken 4 m içindekileri ısıtır: soğuk, yağmur, kar, rüzgar ve korozyon etkileri %75 azalır, üşüme ve ıslaklık hızla geçer, stamina daha hızlı dolar. Ateşin içine giren oyuncu ve düşman yanar. Yere bırakınca da çalışır.",
+   "en": "Fire: light/put out. While lit it warms everything within 4 m: cold, rain, snow, wind and corrosion effects drop by 75%, chill and wetness fade quickly, and stamina refills faster. Players and enemies who step into the fire burn. Also works when placed on the ground."
+  },
+  "price": 450,
+  "cat": "gear",
+  "model": "eq-fieldstove"
+ },
+ {
+  "id": "equipment-v2-grapplepistol",
+  "name": {
+   "tr": "Kancalı ip tabancası",
+   "en": "Grappling Gun"
+  },
+  "desc": {
+   "tr": "Ateş: kanca çelik halatla 30 m'ye kadar fırlar ve yüzeye yapışır, halatla sallanırsın. R / tekerlek yukarı: geri çek, tekerlek aşağı: uzat, tekrar Ateş: bırak. Silahı bırakırsan halatın ucunda asılı kalır.",
+   "en": "Fire: the hook flies up to 30 m on a steel cable and sticks to the surface so you can swing on it. R / wheel up: reel in, wheel down: let out, Fire again: release. If you drop the gun, it stays hanging from the cable."
+  },
+  "price": 700,
+  "cat": "tools",
+  "model": "eq-grapplepistol"
+ },
+ {
+  "id": "equipment-v2-gravityorb",
+  "name": {
+   "tr": "Yerçekimsiz alan küresi",
+   "en": "Zero-Gravity Orb"
+  },
+  "desc": {
+   "tr": "Ateş: 6 m yerçekimsiz alanı aç/kapa — eşyalar, canavarlar ve oyuncular süzülür; bıraktığın yerde havada asılı kalır. Enerjiyle çalışır (yaklaşık 1 dk), kaybolmaz. R: kendi canından enerji ver.",
+   "en": "Fire: toggle a 6 m zero-gravity field — items, monsters and players float, and it hangs in the air where you leave it. Runs on energy (about 1 min) and never disappears. R: charge it with your own health."
+  },
+  "price": 2200,
+  "cat": "tools",
+  "model": "eq-gravityorb"
+ },
+ {
+  "id": "equipment-v2-repairkit",
+  "name": {
+   "tr": "Bakım kiti",
+   "en": "Maintenance Kit"
+  },
+  "desc": {
+   "tr": "Ateş'i 2 sn basılı tut: baktığın takım arkadaşına (yoksa kendine) +50 can. Hareket edersen iptal olur.",
+   "en": "Hold Fire for 2 s: restores 50 health to the teammate you're looking at, or to yourself if none. Moving cancels it."
+  },
+  "price": 400,
+  "cat": "health",
+  "model": "eq-repairkit"
+ },
+ {
+  "id": "equipment-v2-reportermic",
+  "name": {
+   "tr": "El mikrofonu",
+   "en": "Handheld Microphone"
+  },
+  "desc": {
+   "tr": "Elde tutarken sesin megafon gibi yükselir ve çok daha uzaktan duyulur. Yankı yapmaz.",
+   "en": "While held, your voice is amplified like a megaphone and can be heard from much farther away. No echo."
+  },
+  "price": 200,
+  "cat": "gear",
+  "model": "eq-reportermic"
+ },
+ {
+  "id": "equipment-v2-rescueeffigy",
+  "name": {
+   "tr": "Kurtarma figürü",
+   "en": "Rescue Figurine"
+  },
+  "desc": {
+   "tr": "4 m içindeki ölü takım arkadaşını %30 canla kaldırır. Tek kullanımlık.",
+   "en": "Revives a dead teammate within 4 m with 30% health. Single use."
+  },
+  "price": 1400,
+  "cat": "health",
+  "model": "eq-rescueeffigy"
+ },
+ {
+  "id": "equipment-v2-ropespool",
+  "name": {
+   "tr": "İp makarası",
+   "en": "Rope Spool"
+  },
+  "desc": {
+   "tr": "Bir yüzeye bak: halatın önizlemesi görünür. Tekerlek: uzunluk, Ateş: bağla. Makara bağlantıda kalır, halat sarkar ve tırmanılır. Halata bakıp E: geri sar, makara eline gelir. Halat en fazla 15 m.",
+   "en": "Look at a surface to preview the rope. Wheel: length; Fire: attach. The spool stays attached while the rope hangs down for climbing. Look at the rope and press E to reel it back into your hand. Maximum rope length: 15 m."
+  },
+  "price": 300,
+  "cat": "tools",
+  "model": "eq-ropespool"
+ },
+ {
+  "id": "equipment-v2-scrapbugle",
+  "name": {
+   "tr": "Hurda borazan",
+   "en": "Scrap Horn"
+  },
+  "desc": {
+   "tr": "İki elle ağzına götür, Ateş basılı tuttukça çal. Yukarı bakınca ince, aşağı bakınca kalın ses çıkar. Uzağa duyulur, düşmanların dikkatini çeker.",
+   "en": "Raise it to your mouth with both hands and hold Fire to play. Look up for a high note, down for a low one. It carries far and draws enemies' attention."
+  },
+  "price": 150,
+  "cat": "gear",
+  "model": "eq-scrapbugle"
+ },
+ {
+  "id": "equipment-v2-scraptracker",
+  "name": {
+   "tr": "Hurda dedektörü",
+   "en": "Scrap Detector"
+  },
+  "desc": {
+   "tr": "Metal dedektörü: elinde tutarken çalışır, pili yok. Hurdaya yaklaştıkça daha hızlı ve ince öter; yakındaki herkes duyar.",
+   "en": "Metal detector: works while held, no battery needed. Beeps faster and higher the closer you get to scrap; everyone nearby can hear it."
+  },
+  "price": 800,
+  "cat": "tools",
+  "model": "eq-scraptracker"
+ },
+ {
+  "id": "equipment-v2-shockbaton",
+  "name": {
+   "tr": "Şok çubuğu",
+   "en": "Shock Baton"
+  },
+  "desc": {
+   "tr": "Yakın vuruş: canavarı 2 sn, oyuncuyu 1.5 sn sersemletir. Bağlayıcı solucanı yapıştığı yerden düşürür, bağları koparır. Fırlatırsan çarptığını uzaktan şoklar. 12 şarj.",
+   "en": "Melee hit: stuns monsters for 2 s and players for 1.5 s. Knocks the binder worm off whatever it's stuck to and breaks its bonds. Throw it to shock whatever it hits from a distance. 12 charges."
+  },
+  "price": 750,
+  "cat": "weapons",
+  "model": "eq-shockbaton"
+ },
+ {
+  "id": "equipment-v2-vineseed",
+  "name": {
+   "tr": "Tırmanış tohumu",
+   "en": "Climbing Seed"
+  },
+  "desc": {
+   "tr": "Ateş ile kur, sonra zemine fırlat: 12 m'ye kadar burgulu, tırmanılabilir bir fasulye sırığı fışkırır.",
+   "en": "Arm it with Fire, then throw it at the ground: a twisting, climbable beanstalk up to 12 m shoots up."
+  },
+  "price": 600,
+  "cat": "tools",
+  "model": "eq-vineseed"
+ },
+ {
+  "id": "flashlight",
+  "name": {
+   "tr": "El Feneri",
+   "en": "Flashlight"
+  },
+  "desc": {
+   "tr": "Karanlıkta yolunu bul. Teslim: Scrap Master'nın masası.",
+   "en": "Find your way in the dark. Delivered to Scrap Master's table."
+  },
+  "price": 250,
+  "cat": "gear",
+  "model": "shop-flashlight"
+ },
+ {
+  "id": "hammer",
+  "name": {
+   "tr": "Çekiç",
+   "en": "Hammer"
+  },
+  "desc": {
+   "tr": "Yakın mesafe ekipmanı. Teslim: Scrap Master'nın masası.",
+   "en": "Melee equipment. Delivered to Scrap Master's table."
+  },
+  "price": 350,
+  "cat": "tools",
+  "model": "shop-hammer"
+ },
+ {
+  "id": "item-1000",
+  "name": {
+   "tr": "Beyzbol Sopası • HD",
+   "en": "Baseball Bat • HD"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 350,
+  "cat": "melee",
+  "model": "shop-item-1000"
+ },
+ {
+  "id": "item-1001",
+  "name": {
+   "tr": "Savaş Bıçağı",
+   "en": "Combat Knife"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 450,
+  "cat": "melee",
+  "model": "shop-item-1001"
+ },
+ {
+  "id": "item-1002",
+  "name": {
+   "tr": "Katana",
+   "en": "Katana"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 1000,
+  "cat": "melee",
+  "model": "shop-item-1002"
+ },
+ {
+  "id": "item-1003",
+  "name": {
+   "tr": "Tek Elli Balta • 01",
+   "en": "One-Handed Axe • 01"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 500,
+  "cat": "melee",
+  "model": "shop-item-1003"
+ },
+ {
+  "id": "item-1004",
+  "name": {
+   "tr": "Tek Elli Balta • 02",
+   "en": "One-Handed Axe • 02"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 500,
+  "cat": "melee",
+  "model": "shop-item-1004"
+ },
+ {
+  "id": "item-1005",
+  "name": {
+   "tr": "Tek Elli Balta • 03",
+   "en": "One-Handed Axe • 03"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 500,
+  "cat": "melee",
+  "model": "shop-item-1005"
+ },
+ {
+  "id": "item-1006",
+  "name": {
+   "tr": "Tek Elli Balta • 04",
+   "en": "One-Handed Axe • 04"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 500,
+  "cat": "melee",
+  "model": "shop-item-1006"
+ },
+ {
+  "id": "item-1007",
+  "name": {
+   "tr": "Tek Elli Balta • 05",
+   "en": "One-Handed Axe • 05"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 500,
+  "cat": "melee",
+  "model": "shop-item-1007"
+ },
+ {
+  "id": "item-1008",
+  "name": {
+   "tr": "Tek Elli Balta • 06",
+   "en": "One-Handed Axe • 06"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 500,
+  "cat": "melee",
+  "model": "shop-item-1008"
+ },
+ {
+  "id": "item-1009",
+  "name": {
+   "tr": "Tek Elli Balta • 07",
+   "en": "One-Handed Axe • 07"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 500,
+  "cat": "melee",
+  "model": "shop-item-1009"
+ },
+ {
+  "id": "item-1010",
+  "name": {
+   "tr": "Tek Elli Balta • 08",
+   "en": "One-Handed Axe • 08"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 500,
+  "cat": "melee",
+  "model": "shop-item-1010"
+ },
+ {
+  "id": "item-1011",
+  "name": {
+   "tr": "Çift Elli Balta • 01",
+   "en": "Two-Handed Axe • 01"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 750,
+  "cat": "melee",
+  "model": "shop-item-1011"
+ },
+ {
+  "id": "item-1012",
+  "name": {
+   "tr": "Çift Elli Balta • 02",
+   "en": "Two-Handed Axe • 02"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 750,
+  "cat": "melee",
+  "model": "shop-item-1012"
+ },
+ {
+  "id": "item-1013",
+  "name": {
+   "tr": "Çift Elli Balta • 03",
+   "en": "Two-Handed Axe • 03"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 750,
+  "cat": "melee",
+  "model": "shop-item-1013"
+ },
+ {
+  "id": "item-1014",
+  "name": {
+   "tr": "Çift Elli Balta • 04",
+   "en": "Two-Handed Axe • 04"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 750,
+  "cat": "melee",
+  "model": "shop-item-1014"
+ },
+ {
+  "id": "item-1015",
+  "name": {
+   "tr": "Çift Elli Balta • 05",
+   "en": "Two-Handed Axe • 05"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 750,
+  "cat": "melee",
+  "model": "shop-item-1015"
+ },
+ {
+  "id": "item-1016",
+  "name": {
+   "tr": "Çift Elli Balta • 06",
+   "en": "Two-Handed Axe • 06"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 750,
+  "cat": "melee",
+  "model": "shop-item-1016"
+ },
+ {
+  "id": "item-1017",
+  "name": {
+   "tr": "Çift Elli Balta • 07",
+   "en": "Two-Handed Axe • 07"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 750,
+  "cat": "melee",
+  "model": "shop-item-1017"
+ },
+ {
+  "id": "item-1018",
+  "name": {
+   "tr": "Çift Elli Balta • 08",
+   "en": "Two-Handed Axe • 08"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 750,
+  "cat": "melee",
+  "model": "shop-item-1018"
+ },
+ {
+  "id": "item-1019",
+  "name": {
+   "tr": "Alyan Anahtarı",
+   "en": "Allen Key"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 150,
+  "cat": "tools",
+  "model": "shop-item-1019"
+ },
+ {
+  "id": "item-1021",
+  "name": {
+   "tr": "Balta • 02",
+   "en": "Axe • 02"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 500,
+  "cat": "tools",
+  "model": "shop-item-1021"
+ },
+ {
+  "id": "item-1022",
+  "name": {
+   "tr": "Beyzbol Sopası • 01",
+   "en": "Baseball Bat • 01"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 300,
+  "cat": "melee",
+  "model": "shop-item-1022"
+ },
+ {
+  "id": "item-1023",
+  "name": {
+   "tr": "Beyzbol Sopası • 02",
+   "en": "Baseball Bat • 02"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 350,
+  "cat": "melee",
+  "model": "shop-item-1023"
+ },
+ {
+  "id": "item-1024",
+  "name": {
+   "tr": "Satır",
+   "en": "Row"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 450,
+  "cat": "melee",
+  "model": "shop-item-1024"
+ },
+ {
+  "id": "item-1025",
+  "name": {
+   "tr": "Telefon Çekici",
+   "en": "Phone Hammer"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 350,
+  "cat": "tools",
+  "model": "shop-item-1025"
+ },
+ {
+  "id": "item-1026",
+  "name": {
+   "tr": "İşaret Fişeği",
+   "en": "Flare"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 200,
+  "cat": "consumables",
+  "model": "shop-item-1026"
+ },
+ {
+  "id": "item-1027",
+  "name": {
+   "tr": "Kullanılmış İşaret Fişeği",
+   "en": "Used Flare"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 50,
+  "cat": "consumables",
+  "model": "shop-item-1027"
+ },
+ {
+  "id": "item-1028",
+  "name": {
+   "tr": "Kırık Şişe",
+   "en": "Broken Bottle"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 100,
+  "cat": "melee",
+  "model": "shop-item-1028"
+ },
+ {
+  "id": "item-1030",
+  "name": {
+   "tr": "Çekiç • 02",
+   "en": "Hammer • 02"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 350,
+  "cat": "tools",
+  "model": "shop-item-1030"
+ },
+ {
+  "id": "item-1031",
+  "name": {
+   "tr": "Çekiç • 03",
+   "en": "Hammer • 03"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 400,
+  "cat": "tools",
+  "model": "shop-item-1031"
+ },
+ {
+  "id": "item-1032",
+  "name": {
+   "tr": "Çekiç • 04",
+   "en": "Hammer • 04"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 400,
+  "cat": "tools",
+  "model": "shop-item-1032"
+ },
+ {
+  "id": "item-1034",
+  "name": {
+   "tr": "Pala",
+   "en": "Machete"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 600,
+  "cat": "melee",
+  "model": "shop-item-1034"
+ },
+ {
+  "id": "item-1035",
+  "name": {
+   "tr": "Derme Çatma Silah",
+   "en": "Makeshift Weapon"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 250,
+  "cat": "melee",
+  "model": "shop-item-1035"
+ },
+ {
+  "id": "item-1036",
+  "name": {
+   "tr": "Çapraz Demir",
+   "en": "Cross Brace"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 250,
+  "cat": "melee",
+  "model": "shop-item-1036"
+ },
+ {
+  "id": "item-1037",
+  "name": {
+   "tr": "Balık Şişi",
+   "en": "Fish Skewer"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 200,
+  "cat": "melee",
+  "model": "shop-item-1037"
+ },
+ {
+  "id": "item-1038",
+  "name": {
+   "tr": "Bayat Baget",
+   "en": "Stale Baguette"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 100,
+  "cat": "melee",
+  "model": "shop-item-1038"
+ },
+ {
+  "id": "item-1039",
+  "name": {
+   "tr": "El Aleti • 01",
+   "en": "Hand Tool • 01"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 200,
+  "cat": "tools",
+  "model": "shop-item-1039"
+ },
+ {
+  "id": "item-1040",
+  "name": {
+   "tr": "El Aleti • 02",
+   "en": "Hand Tool • 02"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 200,
+  "cat": "tools",
+  "model": "shop-item-1040"
+ },
+ {
+  "id": "item-1041",
+  "name": {
+   "tr": "El Aleti • 03",
+   "en": "Hand Tool • 03"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 250,
+  "cat": "tools",
+  "model": "shop-item-1041"
+ },
+ {
+  "id": "item-1042",
+  "name": {
+   "tr": "El Aleti • 05",
+   "en": "Hand Tool • 05"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 250,
+  "cat": "tools",
+  "model": "shop-item-1042"
+ },
+ {
+  "id": "item-1043",
+  "name": {
+   "tr": "Boya Fırçası",
+   "en": "Paintbrush"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 100,
+  "cat": "tools",
+  "model": "shop-item-1043"
+ },
+ {
+  "id": "item-1044",
+  "name": {
+   "tr": "Kazma",
+   "en": "Pickaxe"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 550,
+  "cat": "tools",
+  "model": "shop-item-1044"
+ },
+ {
+  "id": "item-1045",
+  "name": {
+   "tr": "Demir Boru",
+   "en": "Iron Pipe"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 250,
+  "cat": "melee",
+  "model": "shop-item-1045"
+ },
+ {
+  "id": "item-1046",
+  "name": {
+   "tr": "Oklava",
+   "en": "Rolling Pin"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 150,
+  "cat": "melee",
+  "model": "shop-item-1046"
+ },
+ {
+  "id": "item-1047",
+  "name": {
+   "tr": "Lastik Tokmak",
+   "en": "Rubber Mallet"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 300,
+  "cat": "tools",
+  "model": "shop-item-1047"
+ },
+ {
+  "id": "item-1048",
+  "name": {
+   "tr": "Kürek",
+   "en": "Shovel"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 450,
+  "cat": "tools",
+  "model": "shop-item-1048"
+ },
+ {
+  "id": "item-1049",
+  "name": {
+   "tr": "Orak",
+   "en": "Sickle"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 400,
+  "cat": "tools",
+  "model": "shop-item-1049"
+ },
+ {
+  "id": "item-1050",
+  "name": {
+   "tr": "İngiliz Anahtarı • 01",
+   "en": "Wrench • 01"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 300,
+  "cat": "tools",
+  "model": "shop-item-1050"
+ },
+ {
+  "id": "item-1051",
+  "name": {
+   "tr": "İngiliz Anahtarı • 02",
+   "en": "Wrench • 02"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 350,
+  "cat": "tools",
+  "model": "shop-item-1051"
+ },
+ {
+  "id": "item-1052",
+  "name": {
+   "tr": "Glock",
+   "en": "Glock"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 1300,
+  "cat": "weapons",
+  "model": "shop-item-1052"
+ },
+ {
+  "id": "item-1053",
+  "name": {
+   "tr": "M1911",
+   "en": "M1911"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 1400,
+  "cat": "weapons",
+  "model": "shop-item-1053"
+ },
+ {
+  "id": "item-1054",
+  "name": {
+   "tr": "Tabanca • HD",
+   "en": "Pistol • HD"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 1500,
+  "cat": "weapons",
+  "model": "shop-item-1054"
+ },
+ {
+  "id": "item-1056",
+  "name": {
+   "tr": "Tabanca • 01",
+   "en": "Pistol • 01"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 1100,
+  "cat": "weapons",
+  "model": "shop-item-1056"
+ },
+ {
+  "id": "item-1057",
+  "name": {
+   "tr": "Tabanca • 02",
+   "en": "Pistol • 02"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 1150,
+  "cat": "weapons",
+  "model": "shop-item-1057"
+ },
+ {
+  "id": "item-1058",
+  "name": {
+   "tr": "Tabanca • 03",
+   "en": "Pistol • 03"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 1200,
+  "cat": "weapons",
+  "model": "shop-item-1058"
+ },
+ {
+  "id": "item-1059",
+  "name": {
+   "tr": "Tabanca • 04",
+   "en": "Pistol • 04"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 1250,
+  "cat": "weapons",
+  "model": "shop-item-1059"
+ },
+ {
+  "id": "item-1066",
+  "name": {
+   "tr": "Benelli M4",
+   "en": "Benelli M4"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 2600,
+  "cat": "weapons",
+  "model": "shop-item-1066"
+ },
+ {
+  "id": "item-1067",
+  "name": {
+   "tr": "Pompalı Tüfek • HD",
+   "en": "Shotgun • HD"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 2400,
+  "cat": "weapons",
+  "model": "shop-item-1067"
+ },
+ {
+  "id": "item-1069",
+  "name": {
+   "tr": "AK-47",
+   "en": "AK-47"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 3200,
+  "cat": "weapons",
+  "model": "shop-item-1069"
+ },
+ {
+  "id": "item-1070",
+  "name": {
+   "tr": "AK-74",
+   "en": "AK-74"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 3400,
+  "cat": "weapons",
+  "model": "shop-item-1070"
+ },
+ {
+  "id": "item-1071",
+  "name": {
+   "tr": "M16",
+   "en": "M16"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 3500,
+  "cat": "weapons",
+  "model": "shop-item-1071"
+ },
+ {
+  "id": "item-1072",
+  "name": {
+   "tr": "M249",
+   "en": "M249"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 5000,
+  "cat": "weapons",
+  "model": "shop-item-1072"
+ },
+ {
+  "id": "item-1073",
+  "name": {
+   "tr": "M4",
+   "en": "M4"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 3600,
+  "cat": "weapons",
+  "model": "shop-item-1073"
+ },
+ {
+  "id": "item-1074",
+  "name": {
+   "tr": "Minigun",
+   "en": "Minigun"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 8000,
+  "cat": "weapons",
+  "model": "shop-item-1074"
+ },
+ {
+  "id": "item-1075",
+  "name": {
+   "tr": "Tüfek",
+   "en": "Rifle"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 2200,
+  "cat": "weapons",
+  "model": "shop-item-1075"
+ },
+ {
+  "id": "item-1076",
+  "name": {
+   "tr": "Uzi",
+   "en": "Uzi"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 2000,
+  "cat": "weapons",
+  "model": "shop-item-1076"
+ },
+ {
+  "id": "item-1077",
+  "name": {
+   "tr": "Uzi • HD",
+   "en": "Uzi • HD"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 2200,
+  "cat": "weapons",
+  "model": "shop-item-1077"
+ },
+ {
+  "id": "item-1078",
+  "name": {
+   "tr": "M107",
+   "en": "M107"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 5500,
+  "cat": "weapons",
+  "model": "shop-item-1078"
+ },
+ {
+  "id": "item-1079",
+  "name": {
+   "tr": "Keskin Nişancı Tüfeği",
+   "en": "Sniper Rifle"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 4500,
+  "cat": "weapons",
+  "model": "shop-item-1079"
+ },
+ {
+  "id": "item-1080",
+  "name": {
+   "tr": "El Bombası",
+   "en": "Grenade"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 600,
+  "cat": "explosives",
+  "model": "shop-item-1080"
+ },
+ {
+  "id": "item-1081",
+  "name": {
+   "tr": "Molotof",
+   "en": "Molotov"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 350,
+  "cat": "explosives",
+  "model": "shop-item-1081"
+ },
+ {
+  "id": "item-1082",
+  "name": {
+   "tr": "RGD-5",
+   "en": "RGD-5"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 650,
+  "cat": "explosives",
+  "model": "shop-item-1082"
+ },
+ {
+  "id": "item-1083",
+  "name": {
+   "tr": "Sis Bombası",
+   "en": "Smoke Grenade"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 400,
+  "cat": "explosives",
+  "model": "shop-item-1083"
+ },
+ {
+  "id": "item-1084",
+  "name": {
+   "tr": "Bomba Atar",
+   "en": "Grenade Launcher"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 5500,
+  "cat": "weapons",
+  "model": "shop-item-1084"
+ },
+ {
+  "id": "item-1085",
+  "name": {
+   "tr": "RPG-7",
+   "en": "RPG-7"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 6000,
+  "cat": "weapons",
+  "model": "shop-item-1085"
+ },
+ {
+  "id": "item-9000",
+  "name": {
+   "tr": "Sırt Çantası",
+   "en": "Backpack"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 1000,
+  "cat": "gear",
+  "model": "shop-item-9000"
+ },
+ {
+  "id": "jet-boots",
+  "name": {
+   "tr": "Jet Bot",
+   "en": "Jet Boots"
+  },
+  "desc": {
+   "tr": "6 saniyelik itiş. Havada tekrar zıplamayı basılı tut. Dükkân yanında ücretsiz dolum. Kullan: giy; el boşken Kuşan: çıkar.",
+   "en": "6 seconds of thrust. Press and hold Jump again while airborne. Refills for free beside the shop. Use: put on; Equip with an empty hand: take off."
+  },
+  "price": 2000,
+  "cat": "gear",
+  "model": "jet-boots"
+ },
+ {
+  "id": "megaphone",
+  "name": {
+   "tr": "Megafon",
+   "en": "Megaphone"
+  },
+  "desc": {
+   "tr": "Elinde tutarken sesin çok uzaktan duyulur.",
+   "en": "While held, your voice can be heard from far away."
+  },
+  "price": 250,
+  "cat": "gear",
+  "model": "shop-megaphone"
+ },
+ {
+  "id": "revolver",
+  "name": {
+   "tr": "Altıpatlar",
+   "en": "Revolver"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 1400,
+  "cat": "weapons",
+  "model": "shop-revolver"
+ },
+ {
+  "id": "road-dog",
+  "name": {
+   "tr": "Hurda Köpek",
+   "en": "Scrap Dog"
+  },
+  "desc": {
+   "tr": "Sadık yol arkadaşı. Seni takip eder, sırtındaki kasada yük taşır.",
+   "en": "A loyal companion. Follows you and carries cargo in the crate on its back."
+  },
+  "price": 2500,
+  "cat": "companion",
+  "model": "shop-road-dog"
+ },
+ {
+  "id": "saw",
+  "name": {
+   "tr": "El Testeresi",
+   "en": "Handsaw"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 400,
+  "cat": "tools",
+  "model": "shop-saw"
+ },
+ {
+  "id": "shotgun",
+  "name": {
+   "tr": "Pompalı Tüfek",
+   "en": "Shotgun"
+  },
+  "desc": {
+   "tr": "Scrap Master hazırlayıp masanın önüne teslim eder.",
+   "en": "Scrap Master prepares it and delivers it in front of the table."
+  },
+  "price": 2200,
+  "cat": "weapons",
+  "model": "shop-shotgun"
+ },
+ {
+  "id": "shoulder-wings",
+  "name": {
+   "tr": "Omuz Kanadı",
+   "en": "Shoulder Wing"
+  },
+  "desc": {
+   "tr": "Yüksekten kontrollü süzülme. Havada tekrar zıplamayı basılı tut. Çantayla kullanılabilir; omuz aksesuarını geçici gizler. Kullan: giy; Kuşan: çıkar.",
+   "en": "Glide down from high places. Press and hold Jump again while airborne. Works with a bag; temporarily hides your shoulder accessory. Use: put on; Equip: take off."
+  },
+  "price": 1250,
+  "cat": "gear",
+  "model": "shoulder-wings"
+ },
+ {
+  "id": "walkie-talkie",
+  "name": {
+   "tr": "Telsiz Çifti",
+   "en": "Walkie-Talkie Pair"
+  },
+  "desc": {
+   "tr": "İki telsiz birden. İki oyuncu da elinde telsiz tutarsa mesafe fark etmeden konuşur.",
+   "en": "A pair of walkie-talkies. If both players hold one, they can talk regardless of distance."
+  },
+  "price": 500,
+  "cat": "gear",
+  "model": "shop-walkie-talkie"
+ }
+]
