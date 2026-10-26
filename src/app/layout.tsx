@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     images: [{ url: "/brand/og.jpg", width: 1200, height: 675, alt: "HURDA-G" }],
   },
   twitter: { card: "summary_large_image", site: "@Deep_Int_Ent", images: ["/brand/og.jpg"] },
-  icons: { icon: "/brand/logo-512.png" },
+  icons: { icon: [{ url: "/favicon.svg", type: "image/svg+xml" }], shortcut: "/favicon.ico", apple: "/apple-touch-icon.png" },
 };
 
 export const viewport: Viewport = { themeColor: "#070605", width: "device-width", initialScale: 1 };
