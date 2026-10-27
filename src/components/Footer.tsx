@@ -61,9 +61,15 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-iron-700/60">
-        <p className="container-x py-5 font-mono text-[0.7rem] tracking-[0.18em] text-bone-600">
-          HURDA-G // BUILD 1987 · © {new Date().getFullYear()} DEEP INTERACTIVE ENTERTAINMENT
-        </p>
+        <div className="container-x flex flex-wrap items-center justify-between gap-x-6 gap-y-2 py-5">
+          <p className="font-mono text-[0.7rem] tracking-[0.18em] text-bone-600">
+            HURDA-G // BUILD 1987 · © {new Date().getFullYear()} DEEP INTERACTIVE ENTERTAINMENT
+          </p>
+          <div className="flex gap-5 text-sm">
+            <Link href="/terms" className="text-bone-400 hover:text-amber-300">{t({ tr: "Hizmet Koşulları", en: "Terms of Service" })}</Link>
+            <Link href="/privacy" className="text-bone-400 hover:text-amber-300">{t({ tr: "Gizlilik Politikası", en: "Privacy Policy" })}</Link>
+          </div>
+        </div>
       </div>
     </footer>
   );

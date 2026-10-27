@@ -30,3 +30,4 @@ next-env.d.ts
 # vercel
 .vercel
 /_third_party_models
+/hurda-g-site.zip
